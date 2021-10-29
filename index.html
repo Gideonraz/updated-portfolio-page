@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
 <body>
@@ -15,28 +16,37 @@
   </div>
   <!-- navgaition menu -->
   <nav>
-    <div class="navbar">
-      <div class="logo"><a href="#">Portfolio</a></div>
-      <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#services">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <div class="cancel-btn">
-            <i class="fas fa-times"></i>
-          </div>
+  <div class="navbar">
+    <div class="logo"><a href="#">Portfolio</a></div>
+    <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    
+    <!-- <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+        Dropdown
+      </button>
+      <ul class="dropdown-menu">
+        <li><span class="dropdown-item-text">Dropdown item text</span></li>
+        <li><a class="dropdown-item" href="https://github.com/Gideonraz">GitHub</a></li>
+        <li><a class="dropdown-item" href = "mailto: gideonrazzaq1158@gmail.com">Gmail</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
       </ul>
-      <div class="media-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
+    </div> -->
+    <div class="media-icons">
+      <a href="https://github.com/Gideonraz"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-gmail"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
     </div>
-    <div class="menu-btn">
-      <i class="fas fa-bars"></i>
-    </div>
-  </nav>
+  </div>
+  <!-- <div class="menu-btn">
+    <i class="fas fa-bars"></i>
+  </div> -->
+</nav>
 
 <!-- Home Section Start -->
  <section class="home" id="home">
@@ -47,9 +57,6 @@
        <div class="text-three">Web Developer</div>
        <div class="text-four">From Philadelphia</div>
      </div>
-     <!-- <div class="button">
-       <button>Hire Me</button>
-     </div> -->
    </div>
  </section>
 
@@ -64,9 +71,6 @@
     <div class="right">
       <div class="topic">Front End Web Developer</div>
       <p>I am a 18 year-old recent high school graduate and am pursing a career in Web Development. I can build websites from scratch and write website code with programming languages such as HTML, CSS and JavaScript. I am looking for an opportunity to showcase my skills and get a job doing these things. </p>
-      <!-- <div class="button">
-        <button>Download CV</button>
-      </div> -->
     </div>
   </div>
   </div>
@@ -81,15 +85,11 @@
      <div class="text">
        <div class="topic">Skills Reflects Our Knowledge</div>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus natus tenetur tempora? Quasi, rem quas omnis. Porro rem aspernatur reiciendis ut praesentium minima ad, quos, officia! Illo libero, et, distinctio repellat sed nesciunt est modi quaerat placeat. Quod molestiae, alias?</p>
-       <!-- <div class="experience">
-         <div class="num">10</div>
-         <div class="exp">Years Of <br> Experience</div>
-       </div> -->
      </div>
      <div class="boxes">
        <div class="box">
          <div class="topic">HTML</div>
-         <div class="per">90%</div>
+         <div class="per">85%</div>
        </div>
        <div class="box">
          <div class="topic">CSS</div>
@@ -99,10 +99,6 @@
          <div class="topic">JavScript</div>
          <div class="per">70%</div>
        </div>
-       <!-- <div class="box">
-         <div class="topic">PHP</div>
-         <div class="per">60%</div>
-       </div> -->
      </div>
    </div>
  </div>
@@ -118,44 +114,27 @@
            <i class="fas fa-desktop"></i>
        </div>
        <div class="topic">Password Generator Webpage</div>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-     </div>
-     <div class="box">
+       <p>This is a password generator webpage where you can select the criteria for your password and how it should look.</p>
+       <a href="https://gideonraz.github.io/password-generator-project/">Visit my Password Generator Webpage!</a>
+       </div>
+       <div class="box">
          <div class="icon">
            <i class="fas fa-paint-brush"></i>
           
        </div>
        <div class="topic">Day Planner Webpage</div>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-     </div>
+       <p>This is a day planner webpage where you can write down all the things you need to do throughout the day and it saves using local storage.</p>
+       <a href="https://gideonraz.github.io/day-planner-project/">Visit my Day Planner Webpage!</a>
+       </div>
        <div class="box">
          <div class="icon">
            <i class="fas fa-chart-line"></i>
        </div>
-       <div class="topic">Weather Dashboard Webpage</div>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-     </div>
-       <div class="box">
-         <div class="icon">
-           <i class="fab fa-android"></i>
+       <div class="topic">Team Profile Tracker Webpage</div>
+       <p>This is a webpage that is very useful for managers to track the progress of their employees throughout different tasks.</p>
+       <a href="https://zaydnubani.github.io/Penn-Collab-Project-1/">Visit my Team Profile Tracker Webpage!</a>
+
        </div>
-       <div class="topic"></div>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-     </div>
-       <div class="box">
-         <div class="icon">
-           <i class="fas fa-camera-retro"></i>
-       </div>
-       <div class="topic">Photography</div>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-     </div>
-       <div class="box">
-         <div class="icon">
-           <i class="fas fa-tablet-alt"></i>
-       </div>
-       <div class="topic">Apps Devlopment</div>
-       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia autem quam odio, qui voluptatem eligendi?</p>
-     </div>
    </div>
    </div>
  </section>
@@ -165,11 +144,8 @@
   <div class="content">
     <div class="title"><span>Contact Me</span></div>
     <div class="text">
-      <div class="topic">Have Any Project?</div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam neque ipsum corrupti dolores, facere numquam voluptate aspernatur sit perferendis qui nisi modi! Recusandae deserunt consequatur voluptatibus alias repellendus nobis eligendi.</p>
-      <!-- <div class="button">
-        <button>Let's Chat</button>
-      </div> -->
+      <div class="topic">Need to contact me?</div>
+      <p>Use the dropdown "Contact me" button to see all the ways to contact me.</p>
     </div>
   </div>
 </section>
@@ -182,51 +158,7 @@
 </footer>
 
   <script src="script.js"></script>
+  <script src="jq/jquery-2.1.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
-
-// Sticky Navigation Menu JS Code
-let nav = document.querySelector("nav");
-let scrollBtn = document.querySelector(".scroll-button a");
-console.log(scrollBtn);
-let val;
-window.onscroll = function() {
-  if(document.documentElement.scrollTop > 20){
-    nav.classList.add("sticky");
-    scrollBtn.style.display = "block";
-  }else{
-    nav.classList.remove("sticky");
-    scrollBtn.style.display = "none";
-  }
-
-}
-
-// Side NavIgation Menu JS Code
-let body = document.querySelector("body");
-let navBar = document.querySelector(".navbar");
-let menuBtn = document.querySelector(".menu-btn");
-let cancelBtn = document.querySelector(".cancel-btn");
-menuBtn.onclick = function(){
-  navBar.classList.add("active");
-  menuBtn.style.opacity = "0";
-  menuBtn.style.pointerEvents = "none";
-  body.style.overflow = "hidden";
-  scrollBtn.style.pointerEvents = "none";
-}
-cancelBtn.onclick = function(){
-  navBar.classList.remove("active");
-  menuBtn.style.opacity = "1";
-  menuBtn.style.pointerEvents = "auto";
-  body.style.overflow = "auto";
-  scrollBtn.style.pointerEvents = "auto";
-}
-
-// Side Navigation Bar Close While We Click On Navigation Links
-let navLinks = document.querySelectorAll(".menu li a");
-for (var i = 0; i < navLinks.length; i++) {
-  navLinks[i].addEventListener("click" , function() {
-    navBar.classList.remove("active");
-    menuBtn.style.opacity = "1";
-    menuBtn.style.pointerEvents = "auto";
-  });
-}
