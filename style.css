@@ -35,7 +35,7 @@ nav{
 }
 nav.sticky{
   background: #4070f4;
-  padding: 13px 0;
+  padding: 10px 0;
 }
 nav .navbar{
   width: 90%;
@@ -83,28 +83,6 @@ nav.sticky .menu a:hover{
 }
 nav.sticky .media-icons a{
   color: #FFF;
-}
-
-/* Side Navigation Menu Button CSS */
-nav .menu-btn,
-.navbar .menu .cancel-btn{
-  position: absolute;
-  color: #fff;
-  right: 30px;
-  top: 20px;
-  font-size: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  display: none;
-}
-nav .menu-btn{
-  color: #4070f4;
-}
-nav.sticky .menu-btn{
-  color: #FFF;
-}
-.navbar .menu .menu-btn{
-  color: #fff;
 }
 
 /* home section styling */
@@ -471,7 +449,7 @@ footer .text span a:hover{
     align-items: center;
     width: 100%;
   }
-  .services .boxes .box{
+  .portfolio .boxes .box{
     margin: 20px 0;
     width: 100%;
   }
