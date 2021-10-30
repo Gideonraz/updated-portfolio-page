@@ -1,1 +1,9 @@
 # updated-portfolio-page
+To create my portfolio I first created my index.html, style.css and script.js files. Next I added the images that I wanted to use in an images files. Then after I started on my html and used font awesome and bootstrap as my frameworks to make my page look more polished and professional. I used font awesome and bootstrap for a number of my icons on the page. I first created the navbar on my page and added an Home, About,Skills, Portfolio and Contact list. Then I added a list of platforms you can use to contact me (facebook, twitter and github). Next I started on the home section which says ("Hi, I'm Gideon Razzaq from Philadelphia") using div tags. Then I started on the about section where I wrote a little bit about me and added an image next to it to make it more professional. Next I did the my skills section where I added my skills and the percentage of my knowledge of those things, using div tags and classes that were boxes. Next for the my portfolio I created three boxes where I can place the name of my projects that I completed and a link that goes to those projects.
+Lastly, for the index page I added a footer. Next I went into th css file and adjusted everything to its right place and formatted the things that needed to be formatted. I also added the backgrounf image from the css file. Finally I went into the js file I added code so that my nav bar was always at the top of my page even when you scroll down the page so it is easy to navigate to any section of the page and so that you can click on any of the nav bar links and easily reach there. I also added a function so that when you scroll past a certain point of the page the nav bar changes color and will stick to the top of the page.
+
+Github pages link: https://gideonraz.github.io/updated-portfolio-page/
+
+Github Repo link:  https://github.com/Gideonraz/updated-portfolio-page
+
+Image of deployed site in images folder.
