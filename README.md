@@ -49,4 +49,4 @@ You have the freedom to do as you like with this permissive software, as long as
 
 ## Application Image
 
- ![Image of Application]()
+ ![Image of Application](https://gideonraz.github.io/updated-portfolio-page/)
